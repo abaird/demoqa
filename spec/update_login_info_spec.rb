@@ -11,7 +11,7 @@ describe 'demoqa' do
   let(:landing_page) { Demoqa::LandingPage.new(@browser) }
   let(:my_account_page) { Demoqa::MyAccountPage.new(@browser) }
   let(:details_page) { Demoqa::DetailsPage.new(@browser) }
-  let(:username) { ENV['USERNAME'] || 'abaird@bairdsnet.net' }
+  let(:username) { ENV['USEREMAIL'] || 'abaird@bairdsnet.net' }
   let(:password) { ENV['PASSWORD'] }
 
   it 'should update login info' do

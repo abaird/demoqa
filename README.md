@@ -18,8 +18,8 @@ After cloning this repository, execute:
 You need to get a login to the demoqa site. Once you have those, they need to be specified as
 ENVARS on the command line
 
-    $ USERNAME=<your username here> PASSWORD=<your password here> bundle exec rspec
+    $ USEREMAIL=<your username here> PASSWORD=<your password here> bundle exec rspec
 
 Also, these tests use Chrome by default, if you want to use Firefox, then specify it with the DRIVER ENVAR
 
-    $ DRIVER=firefox ...
+    $ DRIVER=firefox ...I
