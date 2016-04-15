@@ -5,6 +5,6 @@ require 'rspec'
 
 RSpec.configure do |_config|
   def browser_driver
-    ENV['DRIVER'].to_sym || :chrome
+    (ENV['DRIVER'] || :chrome)
   end
 end

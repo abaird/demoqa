@@ -1,7 +1,13 @@
 
-site purchases
+demoqa
 [32m  should purchase an iphone4 for $270[0m
 
-Finished in 3.43 seconds (files took 0.17454 seconds to load)
-[32m1 example, 0 failures[0m
+demoqa
+[32m  should remove items from the cart[0m
+
+demoqa
+[32m  should update login info[0m
+
+Finished in 1 minute 4.1 seconds (files took 0.18013 seconds to load)
+[32m3 examples, 0 failures[0m
 
