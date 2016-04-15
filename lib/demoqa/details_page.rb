@@ -10,7 +10,6 @@ module Demoqa
     end
 
     def zipcode
-      Watir::Wait.until { postal_code_field != '' }
       postal_code_field.when_present.value
     end
 
