@@ -3,6 +3,11 @@ module Demoqa
     def update_zipcode(zip)
       postal_code_field.value = zip
       submit_button.click
+      Watir::Wait.until{page_title.present?}
+    end
+
+    def page_title
+      browser.h1(class:'entry-title')
     end
 
     def submit_button
