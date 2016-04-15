@@ -1,0 +1,17 @@
+Metrics/LineLength:
+  Max: 100
+
+Metrics/MethodLength:
+  Max: 15
+
+Metrics/AbcSize:
+  Max: 30
+
+Style/DotPosition:
+  EnforcedStyle: trailing
+
+Documentation:
+  Enabled: false
+
+AllCops:
+  TargetRubyVersion: 2.2

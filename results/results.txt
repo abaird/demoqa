@@ -1,0 +1,7 @@
+
+site purchases
+[32m  should purchase an iphone4 for $270[0m
+
+Finished in 3.43 seconds (files took 0.17454 seconds to load)
+[32m1 example, 0 failures[0m
+
