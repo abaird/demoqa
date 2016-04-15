@@ -20,5 +20,13 @@ module Demoqa
       main_nav.visible?
     end
     alias loaded? page_loaded?
+
+    def my_account_link
+      browser.div(id: 'account').link
+    end
+
+    def goto_my_account_page
+      my_account_link.click
+    end
   end
 end

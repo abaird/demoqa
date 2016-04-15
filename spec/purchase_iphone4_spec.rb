@@ -1,6 +1,6 @@
-describe 'site purchases' do
+describe 'demoqa' do
   before(:each) do
-    @browser = Watir::Browser.new :chrome
+    @browser = Watir::Browser.new browser_driver
     landing_page.visit
   end
 

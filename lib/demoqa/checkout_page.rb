@@ -24,6 +24,7 @@ module Demoqa
       postal_code_field.value = model.postal_code
       phone_field.value = model.phone
       same_as_billing_address_checkbox.when_present.set
+      Watir::Wait.until { browser.ps(class: 'validation_error').count == 0 }
     end
 
     def billing_details_table
